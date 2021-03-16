@@ -4,3 +4,8 @@ venv/lib
 venv/lib64
 venv/pyvenv.cfg
 .idea/workspace.xml
+.idea/csc102.iml
+.idea/inspectionProfiles
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
