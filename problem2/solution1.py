@@ -9,3 +9,4 @@ area = 0.5 * float(b) * float(h)
 print("the area of the triangle is", area)
 
 # why do we use comma , is it same reasons as c? or does it automatically concatenate
+# this is to solve a problem
