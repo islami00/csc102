@@ -8,4 +8,5 @@ a = input("Enter the fourth number:")
 s = int(x) + int(y) + int(z) + int(a)
 
 print("The sum of the numbers is", s)
-# the comma basically prints the value of the var
+# the comma basically prints the value of the var , separating
+# it from other objects in the print with whitespace
