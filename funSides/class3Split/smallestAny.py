@@ -9,7 +9,6 @@ while True:
     else:
         if maxNo < 0:
             print("The amount of numbers must be non-negative!")
-            continue
         else:
             break
 while True:
