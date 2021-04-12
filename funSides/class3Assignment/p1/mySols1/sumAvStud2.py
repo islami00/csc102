@@ -2,7 +2,6 @@
 # of course, there is compatibility issue in my code as it req this py version to work.
 
 ages = []
-i = 0
 
 # error check one, good value input check, condition for age: must be a positive number <no age limit provided>
 while True:
@@ -16,6 +15,7 @@ while True:
         for n in ages:
             if n < 0:
                 print("The age must be non-negative!")
+                # i am leaving this here cuz i want to remember delitem
                 ages.__delitem__(ages.index(n))
                 break
             else:
