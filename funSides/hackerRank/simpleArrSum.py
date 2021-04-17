@@ -21,12 +21,13 @@ def simpleArraySum(ar):
             count += 1
     return int(s)
 
-# works only in hacler rank! chsnge path to file!
+
+# works only in hacker rank! change path to file!
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     # this part opens the solution file basically, in a mode of write that enables one to edit the file first,
-    # which passses it into stdin OS module in Python provides functions for interacting with the operating system.
+    # which passes it into stdin OS module in Python provides functions for interacting with the operating system.
     # OS comes under Python’s standard utility modules. This module provides a portable way of using operating system
     # dependent functionality.
     #
