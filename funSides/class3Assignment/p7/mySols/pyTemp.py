@@ -1,6 +1,6 @@
 # one unknown: t in f
-c = float(input("Enter the temperature in celcius"))
-f = (c * (9 / 5)) + 32
+f = float(input("Enter the temperature in farenheit"))
 
-# print temp in farenheit
-print(f)
+c = (f - 32) * (5/9)
+# print temp in celcius
+print(c)
