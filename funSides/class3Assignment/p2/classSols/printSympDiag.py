@@ -11,11 +11,17 @@ syBook = {
     "Typhoid": {"fever", "cold", "headache"}
 }
 
+instructions = {
+    "Malaria": "Go get some amartem",
+    "COVID-19":"isolate yourself",
+    "Typhoid": "get cleaner water"
+}
+
 # add another dict for diagnosis
 for key, value in syBook.items():
 
-    if syBook[key] is {s1, s2, s3}:
-        print(syBook[key])
+    if syBook[key] == {s1, s2, s3}:
+        print("you have",key, instructions[key])
         # give sth like print(syBook.diag)
-else:
-    "Cant help you, sorry"
+    else:
+        "Cant help you, sorry"

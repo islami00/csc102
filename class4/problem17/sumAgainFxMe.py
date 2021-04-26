@@ -1,7 +1,6 @@
 def getscore ():
-    n = 0
     a =[]
-    while n < 4:
+    while len(a) <4 :
         n = int(input())
         a.append(n)
     return a

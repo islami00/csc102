@@ -15,4 +15,4 @@ def display(arr):
 
 b = getscore()
 print(b)
-# print(addscore(b), display(b))
+print(addscore(b), display(b))
