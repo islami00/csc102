@@ -11,6 +11,8 @@ for c in arr:
             evenTest = True
         else:
             oddTest = True
-        if evenTest and oddTest == True:
+        if evenTest and oddTest is True:
             evenAndOddTest = True
+            evenTest = False
+            oddTest = False
     print(c, "evenAndOdd:", evenAndOddTest, "even:", evenTest, "odd:", oddTest)
