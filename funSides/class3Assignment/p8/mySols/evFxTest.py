@@ -22,7 +22,7 @@ def even_odd_array_tester(a):
         return "all even"
     elif even_result == {0}:
         return "all odd"
-    else:
+    elif even_result == {0, 1}:
         return "all even and odd"
 
 
