@@ -92,6 +92,8 @@ for i in range(1,101):
 #  # QUESTION FOUR
 
 # input formatting
+
+
 def cur_format(money):
     a = ''.join((filter(lambda x: x.isdigit() or x == '.', money)))
     if a == "" or a == ".":

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.get-userInput{
+    display: block;
+}
+
+.notInput{
+    display: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get User Input</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+
+    <section class="converter">
+    <!--there will be an option saying usd to naira or naira to usd, that toggles the usd blocks on or off
+    after which we flush the input to js to conv to csv then py-->
+    <button class="usdToNaira">USD to NGN</button>
+    <button class="nextThensubmit">next</button> <!--this defaults to next, but on clicking we want it to turn to submit thru js and show the kobo column-->
+    <!--of course, another way of doing this would be to put a submit button with both, i was just afraid of a submission error-->
+    <button class="ngnToDollar">NGN to USD</button>
+    <input type="number" name="getUSD" id="USD" class="notInput">
+    <input type="number" name="getCents" id="USD" class= "notInput">
+    <input type="number" name="getNGN" id="NGN" class="notInput">
+    <input type="number" name="getKobo" id="NGN" class="notInput">
+        <span class="output"></span> <!--js pastes here from python, waits on a file to be edited-->
+    </section>
+</body>
+</html>
