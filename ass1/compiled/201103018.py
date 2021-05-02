@@ -77,7 +77,7 @@ print(my_function())
 # then a colon was added after the bracket to complete the declaration
 # on the third: the return was indented and made to return the increment, fixing the indentation syntax error, and the
 # logic error that is v not being incremented.
-# on the last: the function was called in directly in print as v is not a global variable.
+# on the last: the function was called directly in print as an argument, because v is not a global variable.
 
 # # QUESTION THREE
 for i in range(1, 101):
