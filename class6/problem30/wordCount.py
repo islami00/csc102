@@ -16,3 +16,5 @@ for line in fhand:
 
 print("Actual, no symbol Word count is:",add)
 print("Error word count with symbol is:",add2)
+# this code is useful in removing stray special characters, but really....they are part of the word count itself cuz
+# they are sentence parts...so yeah.

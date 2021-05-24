@@ -1,0 +1,2 @@
+The sum is: 185
+The average is: 18.5
