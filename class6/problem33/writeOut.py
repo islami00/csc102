@@ -6,4 +6,4 @@ for line in fhand:
 print(sum(fhand))
 oPath = open(input("Enter complete path to output file:\n"),"w")
 oPath.write(str(sum(fhand)))
-# this competely overwrites the file with new content
+# this completely overwrites the file with new content
