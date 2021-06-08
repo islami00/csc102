@@ -1,0 +1,2 @@
+Number of CGPAs: 8
+Average CGPA: 1.55
