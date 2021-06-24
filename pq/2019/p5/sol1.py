@@ -3,6 +3,7 @@ def print_word(file):
     for line in file:
         for word in line.split():
             print(word)
+    file.close()
 
 
 print_word("myTxt.txt")

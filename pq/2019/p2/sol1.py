@@ -5,6 +5,6 @@ scores = []
 while a != -1:
     scores.append(a)
     a = int(input(spec))
-    continue
+
 print(sum(scores))
 print(sum(scores)/len(scores))

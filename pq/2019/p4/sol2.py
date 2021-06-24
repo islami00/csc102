@@ -1,0 +1,10 @@
+fhand = open("./Months and days of the year", "a")  # append mode
+fhand.write("\n")
+fhand.write("\nSunday")
+fhand.write("\nMonday")
+fhand.write("\nTuesday")
+fhand.write("\nWednesday")
+fhand.write("\nThursday")
+fhand.write("\nFriday")
+fhand.write("\nSaturday")
+fhand.close()
