@@ -66,4 +66,19 @@ for k,v in c.items():
 # list of tuple with items of the dictionary reversed
 ```
 
-We can find the first ten words in a paragraph as so:
+We can find the first ten words in a paragraph as in problem46, then in a custom way we can filter to top 10 by using
+a slice when printing the sorted values using a for loop i.e `listOfSorted[0:10]`
+e.g:
+
+Bonus on slices: `[::1]` actually gives a slice that goes through the entire list in steps of one.
+That's right: slice syntax as defined by the `.slice()` method is: `[start:end:step]`
+Bonus ++: `str.[::-1]` can be used to print a string in reverse order.
+Got both from the w3c schools reference section for py
+
+```python
+var = [print(f"{a} {b}")for a,b in sortList[-1:-5:-1]]
+# This runs the print function on each value and key in the sorted list which uses custom slicng from the last to the 
+# 4th last element in steps of one (indexes from the end of a list use -1...)
+# Fstrings are used for varible insertion.
+# Also, var will be a list of None as the print function returns None. It's just a context for us to print easily
+```

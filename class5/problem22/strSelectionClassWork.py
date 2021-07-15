@@ -1,5 +1,5 @@
 # input full name
-fullName = input("Enter your full name\nFormat: First,Last").strip()
+fullName = input("Enter your full name\nFormat: FirstName LastName\n").strip()
 # print first name
 firstName = ""
 for i in fullName:

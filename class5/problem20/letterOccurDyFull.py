@@ -1,5 +1,5 @@
-name = input("Enter name\n")
-track = input("Enter letter to be counted\n")
+name = input("Enter name\n").upper()
+track = input("Enter letter to be counted\n").upper()
 
 count = 0
 for i in name:

@@ -4,9 +4,8 @@ secondLine = str(inFile[1])
 print(secondLine)
 wordsSecond = secondLine.split()
 print("The words in the second line are:")
-for word in wordsSecond:
-    print(word)
+
+a = list(map(print, wordsSecond))
+
 print("\nThe words in the second line that start with c are:")
-for word in wordsSecond:
-    if word.startswith("c"):
-        print(word)
+c = [print(x) for x in wordsSecond if x.lower().startswith("c")]

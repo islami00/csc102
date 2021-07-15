@@ -1,6 +1,6 @@
-name = input("Enter name\n")
+name = input("Enter name\n").upper()
 while True:
-    track = input("Enter letter to be counted\n")
+    track = input("Enter letter to be counted\n").upper()
     if len(track) == 1:
         break
     else:

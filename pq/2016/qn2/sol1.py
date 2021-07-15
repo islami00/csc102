@@ -1,6 +1,6 @@
 # function typecasting to show errors
 
-def interest(r: int, t: int, p: float):
+def interest(r: int, t: int, p: float) -> float:
     SI = float(p) * int(r) * int(t) / 100
     return SI
 
